@@ -1,0 +1,129 @@
+.container .skills {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 39%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+    h1 {
+      font-size: 53px;
+      font-family: font-file-82132;
+      color: #08fdd8;
+      font-weight: normal;
+      line-height: 50px;
+      margin-top: 0;
+      /*position: relative;*/
+      display: block;
+      margin-bottom: 40px;
+    }
+  }
+  h1 .blast {
+    will-change: transform;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .text-zone {
+    h1 {
+      &:before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #515152;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -35px;
+        top: 0;
+        left: 0;
+      }
+      &:after {
+        content: '<h1/>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #515152;
+        font-size: 18px;
+        position: absolute;
+        left: -20px;
+        margin-left: 20px;
+        margin-top: 0;
+        top: 40px;
+      }
+    }
+    p {
+      font-size: 13px;
+      line-height: 18px;
+      color: #ffffff;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 300;
+    }
+  }
+  .cloud > div {
+    position: absolute;
+    right: 0;
+  }
+}
+
+.tag-cloud > div {
+  transition: 1.4s;
+}
+
+@media (max-width: 960px) {
+  .container .skills {
+    .text-zone {
+      width: 80%;
+      min-height: 0;
+      h1 {
+        margin-top: 33px;
+        margin-bottom: 49px;
+      }
+    }
+    .cloud > div {
+      position: absolute;
+      top: 77%;
+      left: 25%;
+    }
+    .text-zone h1 {
+      &:before {
+        top: 200px;
+        left: 80px;
+      }
+      &:after {
+        top: 242px;
+        left: 60px;
+      }
+    }
+    .bottom-tags {
+      bottom: -400px;
+      left: 27px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .container .skills {
+    .text-zone {
+      margin-top: 28%;
+    }
+    .cloud > div {
+      top: 87%;
+      left: 25%;
+    }
+    .text-zone h1 {
+      margin-bottom: 0;
+      &:before {
+        top: 139px;
+        left: 40px;
+      }
+      &:after {
+        top: 231px;
+        left: 21px;
+      }
+    }
+    .bottom-tags {
+      bottom: -561px;
+      left: 0;
+    }
+  }
+}

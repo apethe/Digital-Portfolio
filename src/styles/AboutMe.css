@@ -1,0 +1,109 @@
+.container .about .text-zone {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 35%;
+  vertical-align: middle;
+  display: table-cell;
+  max-height: 90%; }
+  .container .about .text-zone h1 {
+    font-size: 53px;
+    font-family: font-file-82132;
+    color: #08fdd8;
+    font-weight: normal;
+    margin-top: 50px;
+    /*position: relative;*/
+    margin-bottom: 40px; }
+
+.container .about h1 .blast {
+  will-change: transform;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
+
+.container .about .text-zone h1:before {
+  content: '<h1>';
+  font-family: 'La Belle Aurore', cursive;
+  color: #515152;
+  font-size: 18px;
+  position: absolute;
+  margin-top: -36px; }
+
+.container .about .text-zone h1:after {
+  content: '<h1/>';
+  font-family: 'La Belle Aurore', cursive;
+  color: #515152;
+  font-size: 18px;
+  position: absolute;
+  left: -20px;
+  top: 76px;
+  margin-left: 20px; }
+
+.container .about .bottom-tags {
+  position: absolute;
+  clear: both;
+  float: left;
+  margin-top: 22px;
+  bottom: -21px;
+  left: 81px; }
+
+.container .about .text-zone p {
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300; }
+
+.profile-img {
+  width: 25rem;
+  height: 25rem;
+  position: absolute;
+  right: 10%;
+  top: 12%;
+  border: 4px solid #08fdd8;
+  border-radius: 100%; }
+
+@media (max-width: 1024px) {
+  .profile-img {
+    width: 18rem;
+    height: 19rem;
+    position: absolute;
+    right: 50%;
+    top: 92%; } }
+
+@media (max-width: 960px) {
+  .container .about .text-zone {
+    width: 80%;
+    min-height: 0; }
+  .container.about-page {
+    height: 100vH; }
+  .profile-img {
+    top: 55%; }
+  .container .about .text-zone h1:after {
+    left: 58px;
+    top: 248px; }
+  .container .about .bottom-tags {
+    bottom: 49px;
+    left: 30px; } }
+
+@media (max-width: 767px) {
+  .container.about-page {
+    overflow: visible; }
+  .container .about .text-zone {
+    margin-top: 27%; }
+    .container .about .text-zone h1 {
+      margin-bottom: 20px; }
+  .profile-img {
+    right: 28%;
+    top: 91%;
+    width: 10rem;
+    height: 10rem; }
+  .container .about .bottom-tags {
+    bottom: -174px;
+    left: 30px; }
+  .container .about .text-zone h1:after {
+    left: 20px;
+    top: 170px; } }
