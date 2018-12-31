@@ -2,7 +2,7 @@
   "name": "digital-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://apethe.github.io/digital-portfolio/",
+  "homepage": "https://apethe.github.io/Digital-Portfolio/",
   "dependencies": {
     "express": "^4.16.3",
     "gh-pages": "^2.0.1",
