@@ -2,8 +2,10 @@
   "name": "digital-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://apethe.github.io/digital-portfolio/",
   "dependencies": {
     "express": "^4.16.3",
+    "gh-pages": "^2.0.1",
     "google-map-react": "^1.0.6",
     "jquery": "^3.3.1",
     "jquery-tagcanvas": "^2.9.0",
@@ -27,6 +29,8 @@
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
