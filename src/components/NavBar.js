@@ -45,10 +45,9 @@ class NavBar extends Component{
                     {/* <IcoMoon icon="cog" />              */}
                     <FontAwesome name='gear' />
                     </a> 
-                    <a rel="gallery" data-menu="Work" onClick={this.handleClick}>
-                    {/* <IcoMoon icon="eye" /> */}
+                    {/*<a rel="gallery" data-menu="Work" onClick={this.handleClick}>
                     <FontAwesome name='eye' />
-                    </a> 
+                    </a> */}
                     <a rel="contact" data-menu="Contact" onClick={this.handleClick}>
                     {/* <IcoMoon icon="mail2" /> */}
                     <FontAwesome name='envelope-o' />
