@@ -7,7 +7,7 @@
     "express": "^4.16.3",
     "gh-pages": "^2.0.1",
     "google-map-react": "^1.0.6",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "jquery-tagcanvas": "^2.9.0",
     "less": "^2.7.2",
     "less-loader": "^4.1.0",
